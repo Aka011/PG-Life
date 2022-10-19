@@ -1,0 +1,70 @@
+/*-----------About us-------------*/
+
+.about {
+    width: 100%;
+    height: 700px;
+    padding: 78px 0px;
+    background-image: url(Img/about.jpg);
+    background-size: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center;
+    width: 1130px;
+    height: 500px;
+    background-color: transparent;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    color: rgb(250, 221, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 1000px;
+    height: 90px;
+    color: orange;
+    font-family: Georgia;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid orange;
+    margin: 55px;
+    background-size: 62px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.about button {
+    background: orange;
+    font-weight: bold;
+    font-family: Georgia;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.about button:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid orange;
+}
